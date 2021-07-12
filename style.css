@@ -1,0 +1,246 @@
+*{
+    padding:0;
+    margin:0;
+}
+header{
+    width: 600px;
+    height: auto;
+    margin: 5 auto;
+}
+.shr{
+    width: 600px;
+    height: 60px;
+    margin:top 8px;
+    background-color: springgreen;
+}
+ .shr ul li{
+     list-style: none;
+     display:inline-block ;    
+     position:relative;  
+ }
+.shr ul li a{
+     display:block ;
+     padding: 10px 20px;
+     font-size: 14px;
+     font-weight: bold;
+     color:blue;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+ .shr ul li a:hover{
+     color:darkmagenta;
+     background-color: khaki;
+ }
+ .shr ul li ul{
+     position:absolute;
+     background-color: #000;
+     left:-9999px;
+ }
+ .shr ul li:hover ul{
+     left:0px;
+ }
+ .shr ul li ul li{
+     width:115px;
+     border-bottom:1px dotted #fff;  
+ }
+ 
+ .bgcover{
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .text{
+     padding: 100px;
+     text-align:center;
+ }
+ .text button {  
+    text-transform: uppercase;
+    background-color: chartreuse;
+    color: crimson;
+    padding: 10px;  
+} 
+ .about-logo img{
+     width: 290px;
+     height:auto ;
+     margin: 0px 10px;
+     margin-bottom: 10px;
+     box-shadow: 4px 6px 5px 0px;
+     /* background-color: springgreen; */
+
+ }
+ .about-text {
+     width: 260px;
+     height: auto;
+      margin-left:15px;
+    
+ }
+ .about-text h2{
+ font-size: 18px;
+ text-transform: uppercase;
+ border-bottom: cyan solid 1px;
+ margin-bottom: 10px;
+ }
+ .about-text p{
+     font-size: 20px;
+     color:royalblue;
+     line-height:auto ;
+     
+ }
+ .row{
+     overflow: auto;
+ }
+ .col{
+     float: left; 
+ }
+ .about-section{
+     background-color: cyan;
+     padding: 30px 5px;
+     margin-top: 15px;
+ }
+ .title{
+  width: 200px;
+ height: auto;     
+ margin:0px auto;
+ }
+ .title h2{
+     font-size: 20px;
+     font-weight: bold;
+     text-transform: uppercase;
+     border-bottom: 1px solid yellowgreen;
+     letter-spacing: 1px;
+     text-align: center;
+     margin-bottom: 10px;
+ }
+ .servic {
+       width:220px ;
+     height:auto;
+     text-align: center;
+     border:2px solid #000;
+     font-size: 18px; 
+     border-color: aqua;
+     display: inline-block;
+     margin: 15px 30px; 
+     
+ }
+.tamim {
+   font-size: 15px;
+    text-align: center;
+    border-bottom:1px solid #fff ;
+   margin-top:  5px;
+    text-transform: uppercase; */
+}
+.our-servic{
+   background-color: bisque;
+   margin-top: 8px;
+}
+/* .servic h3{
+    font-size: 20px;
+    color:darkturquoise;
+    width: 220px; 
+    margin-bottom: 10px;
+    margin-top:3px ;
+    height: auto;
+    text-align: center;
+    text-transform: uppercase;
+} */
+.serv-icon i{
+    font-size: 20px;
+    color:green;
+    transition: .5s;
+}
+.serv-icon i:hover{
+    color: red;
+    transform: scale(.8);
+}
+.servic p{
+    line-height: 20px;
+    margin:0px 5px;
+}
+.contect{
+        background-color: aqua;
+        padding: 15px 28px 15px 80px;
+        box-shadow: 0px 5px 10px 0px;
+        width: 150px;
+        position: relative;
+        font-size: 17px;
+        display: inline-block;
+        margin: 10px 10px 20px 30px ;
+}
+.contect-icon i{
+    font-size: 30px;
+    position: absolute;
+  width: 50px;
+  height: 45px;
+  float: left;
+  top:8px;
+  left: 15px;
+  background:grey;
+  text-align: center;
+ line-height: 50px;
+transition: .5s;
+}
+.contect-icon i:hover{
+    background: khaki;
+    transform: scale(.8);
+}
+.us-contect{
+    
+    background:skyblue;
+    padding: 30px 0px;
+}
+.contect-from{
+    width: 300px;
+    height: auto;
+    margin: 50px 50px;
+    margin-top:30px;
+}
+.inputtag input{
+    font-size: 20px;
+  text-transform: capitalize;
+  border: 0px;
+margin: 5px 0px ;
+}
+.inputtag textarea{
+    width: 400px;
+    border:none;
+}
+.inputtag button{
+    width:300px ;
+    /* border: none; */
+    background: turquoise;
+    margin:8px 4px;
+    padding:10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align:center;
+    margin-top:10px;
+}
+
+footer{
+    width: 900px;
+    margin: 0 auto;
+    height:50px;
+    padding: 20px 0px;
+    background-color: cyan;
+    padding: 20px 0px;
+    
+}
+.foter-icon{
+    float: right;
+}
+.foter-icon i{
+    font-size: 30px;
+    padding: 0px 10px;
+    transition: .5s;
+}
+.foter-icon i:hover{
+    color:red;
+    transform: scale(.8);
+}
+.footer-text{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px 20px;
+}
